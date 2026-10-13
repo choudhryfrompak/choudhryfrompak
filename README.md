@@ -32,9 +32,10 @@ Fixes merged into projects a lot of people depend on:
 |:--|:--|:--|:--|
 | **[postcss](https://github.com/postcss/postcss)** | 29k | Escape `</style>` in non-Root node output | [#2163](https://github.com/postcss/postcss/pull/2163) |
 | **[coredns](https://github.com/coredns/coredns)** | 14k | Stopped holding the zone lock across a network lookup, a production hang open 17 months | [#8601](https://github.com/coredns/coredns/pull/8601) |
+| **[go-yaml](https://github.com/yaml/go-yaml)** | yaml.v3 | Quote literal `<<` map keys so they can't be decoded back as a merge directive, a key-injection fix | [#434](https://github.com/yaml/go-yaml/pull/434) |
 | **[hyperium/http](https://github.com/hyperium/http)** | 1.4k | Rejected a header-smuggling character in the HTTP/2 table | [#876](https://github.com/hyperium/http/pull/876) |
 
-Open and in review in [tokio](https://github.com/tokio-rs/tokio/pull/8581) (33k), [aiohttp](https://github.com/aio-libs/aiohttp/pull/13929) (16k), and [serde_json](https://github.com/serde-rs/json/pull/1350) (5k). Reported an XSS in [minify](https://github.com/tdewolff/minify), now fixed upstream.
+Open and in review in [aiohttp](https://github.com/aio-libs/aiohttp/pull/13929) (16k) and [serde_json](https://github.com/serde-rs/json/pull/1350) (5k). Reported an XSS in [minify](https://github.com/tdewolff/minify), now fixed upstream.
 
 <sub>[Every PR I've merged into other people's projects →](https://github.com/pulls?q=is%3Apr+author%3Achoudhryfrompak+is%3Amerged+-user%3Achoudhryfrompak)</sub>
 
